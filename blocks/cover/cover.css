@@ -3,3 +3,21 @@
   padding-bottom: 92px;
   max-width: 1184px;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    padding-bottom: 64px;
+  }
+}
